@@ -93,13 +93,13 @@ export default function ProfileScreen({ userToken, userId, setToken }) {
           }
         );
         setData(response.data);
-        alert("Votre profil a bien été mis à jour");
+        alert("Profile succesfully updated");
       } catch (error) {
         console.log(error.message);
       }
     } else {
       alert(
-        "Aucune modification apportée. Veuillez modifier le(s) champ(s) Username et/ou Description."
+        "No updates were detected, please update your profile picture, username and/or description before updating"
       );
     }
   };
