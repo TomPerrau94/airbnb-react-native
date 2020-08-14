@@ -2,14 +2,14 @@
 
 Replica of the famous Airbnb App, coded during the amazing 10 weeks [lereacteur](https://lereacteur.io) bootcamp !
 
-## Technologies
+## Main Technologies
 
 - [Expo](https://expo.io/) SDK 0.36
 - [React Native](https://reactnative.dev/)
 
-## Install
+## Setup
 
-To run the app on your computer, install these packages :
+To run the app on your computer, clone the repository and then install the dependencies using these command lines :
 
 ### Npm
 
@@ -17,10 +17,11 @@ To run the app on your computer, install these packages :
 
 ### Yarn
 
-`$ yarn add`
+`yarn add`
 
-Then run this command line to start the app :
-`$ expo start`
+Then start the app :
+
+`expo start`
 
 ## Features
 
@@ -55,6 +56,7 @@ Then run this command line to start the app :
 
 - Navigate around Paris to find rooms
 - Click on a map marker to access room details
+
   > Note that there's only a few rooms located only in Paris in the API data, so default user location is set there
 
 ### Profile
