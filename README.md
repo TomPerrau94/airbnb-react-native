@@ -11,11 +11,11 @@ Replica of the famous Airbnb App, coded during the amazing 10 weeks [lereacteur]
 
 To run the app on your computer, clone the repository and then install the dependencies using these command lines :
 
-### Npm
+- Npm
 
 `npm install`
 
-### Yarn
+- Yarn
 
 `yarn add`
 
