@@ -34,7 +34,7 @@ const RoomScreen = ({ route }) => {
       setIsLoading(false);
     };
     fetchData();
-  }, []);
+  }, [itemId]);
 
   return isLoading ? (
     <ActivityIndicator

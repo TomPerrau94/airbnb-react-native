@@ -57,7 +57,7 @@ Then start the app :
 - Navigate around Paris to find rooms
 - Click on a map marker to access room details
 
-  > Note that there's only a few rooms located only in Paris in the API data, so default user location is set there
+  > Note that there's only a few rooms located only in Paris in the API data. When testing the app on an emulator, please make sure to set your current location to Paris (latitude=48.8566 longitude=2.3522)
 
 ### Profile
 

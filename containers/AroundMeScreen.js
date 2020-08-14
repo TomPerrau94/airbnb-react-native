@@ -64,6 +64,7 @@ const AroundMeScreen = () => {
             showsUserLocation={true}
           >
             {data.map((marker, index) => {
+              console.log(marker._id);
               return (
                 <MapView.Marker
                   key={marker._id}
