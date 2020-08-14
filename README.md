@@ -17,10 +17,10 @@ To run the app on your computer, install these packages :
 
 ### Yarn
 
-`yarn add`
+`$ yarn add`
 
 Then run this command line to start the app :
-`expo start`
+`$ expo start`
 
 ## Features
 
